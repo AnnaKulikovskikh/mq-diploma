@@ -331,7 +331,7 @@
     }
     .buttons {
        height: 75px;
-       width: 658px;
+       width: 87%;
        flex-direction: row;
        justify-content: space-between;
        margin-bottom: 90px;
@@ -341,13 +341,17 @@
        /*padding: 1px; /* Поля вокруг текста */
        /*border-radius: 20px; /* Уголки */
        /*font-size: 8px; */
-       width: 310px;
+       width: 47%;
        height: 58px;
     }
 
     .buttons p{
-       font-size: 15px;
+       font-size: 1,5em;
     }
+    .buttons svg{
+       margin-left: 15%;
+    }
+
     .section-1 {
         display: flex;
         flex-wrap: nowrap;
