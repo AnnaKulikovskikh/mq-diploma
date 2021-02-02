@@ -211,37 +211,37 @@
 }
 
 .active-1 {
- 	background-image: url("../img/be-active_640.jpg");
+  background-image: url("../img/be-active_640.jpg");
 }
 .active-2 {
- 	background-image: url("../img/find-contact_640.jpg");
+  background-image: url("../img/find-contact_640.jpg");
 }
 .active-3 {
- 	background-image: url("../img/work-it_640.jpg");
+  background-image: url("../img/work-it_640.jpg");
 }
 
 .poster-1 {
   width: 100%;
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
-	-webkit-background-size: contain;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
   -moz-background-size: contain;
-	height: 400px;
+  height: 400px;
 }
 .number-square{
   display: block;
-	margin-top: -15%;
+  margin-top: -15%;
   margin-left: 5%;
-	padding: 7%;
-	background-color: #5c3eb2;
-	width: 15px;
+  padding: 7%;
+  background-color: #5c3eb2;
+  width: 15px;
 }
 .number-square p{
-	color: #ffffff;
-	font-size: 14px; /*6.25vw;*/
-	border-bottom: solid 4px #8d75c3;
-	font-family: open-sans-bold, sans-serif;
+  color: #ffffff;
+  font-size: 14px; /*6.25vw;*/
+  border-bottom: solid 4px #8d75c3;
+  font-family: open-sans-bold, sans-serif;
 }
 .content-header-2 {
     display: block;
@@ -331,7 +331,7 @@
     }
     .buttons {
        height: 75px;
-       width: 87%;
+       width: 87%; /*658px;*/
        flex-direction: row;
        justify-content: space-between;
        margin-bottom: 90px;
@@ -341,17 +341,16 @@
        /*padding: 1px; /* Поля вокруг текста */
        /*border-radius: 20px; /* Уголки */
        /*font-size: 8px; */
-       width: 47%;
+       width: 47%; /*310px;*/
        height: 58px;
     }
 
     .buttons p{
-       font-size: 1,5em;
+       font-size: 190%;/*15px;*/
     }
-    .buttons svg{
+    .buttons svg {
        margin-left: 15%;
-    }
-
+    }  
     .section-1 {
         display: flex;
         flex-wrap: nowrap;
@@ -379,7 +378,7 @@
     .parts {
         position: relative;
         margin-top: 100px;
-	      width: 100%;
+        width: 100%;
      } 
     .content-header1 {
         display: block;
@@ -411,18 +410,18 @@
         margin-right: 33%;
     }
     .active-1 {
- 	      background-image: url("../img/be-active_960.jpg");
+        background-image: url("../img/be-active_960.jpg");
     }
     .active-2 {
- 	      background-image: url("../img/find-contact_960.jpg");
+        background-image: url("../img/find-contact_960.jpg");
     }
     .active-3 {
- 	      background-image: url("../img/work-it_960.jpg");
+        background-image: url("../img/work-it_960.jpg");
     }
 
    .poster-1 {
-	     width: 100%;
-	     height: 590px;
+       width: 100%;
+       height: 590px;
    }
    .footer {
         background-image: url("../img/game_1280.jpg");
@@ -440,13 +439,13 @@
     }   
     .header-text{
        width: 100%;
-       font-size: 350%;
-       padding-left: 195px;
+       font-size: 250%;
+       padding-left: 10%;
     }
     .header-text span{
        margin-top: -30px;
-       padding-left: 250px;
-       margin-bottom: 215px;
+       padding-left: 25%;
+       margin-bottom: 15%;
      }
     .header .logo {
         margin-top: 40px;
@@ -509,7 +508,7 @@
     .parts {
         position: relative;
         margin-top: 100px;
-	width: 100%;
+  width: 100%;
      } 
     .content-header1 {
         display: block;
@@ -524,15 +523,15 @@
     } 
     .section-1 .content-header1 {
         margin-left: 45%;
-	      margin-right: 5%;
+        margin-right: 5%;
     }
     .section-1 .number_header {
         margin-left: 45%;
-	      margin-right: 5%;
+        margin-right: 5%;
     }
     .section-1 .article-content {
         margin-left: 45%;
-	      margin-right: 5%;
+        margin-right: 5%;
     }
     .section-2 .content-header1 {
         margin-left: 3%;
@@ -548,18 +547,18 @@
         flex-wrap: wrap;
     }
     .active-1 {
- 	      background-image: url("../img/be-active_1024.jpg");
+        background-image: url("../img/be-active_1024.jpg");
     }
     .active-2 {
-      	background-image: url("../img/find-contact_1024.jpg");
+        background-image: url("../img/find-contact_1024.jpg");
     }
     .active-3 {
- 	      background-image: url("../img/work-it_1024.jpg");
+        background-image: url("../img/work-it_1024.jpg");
     }
 
    .poster-1 {
-	    width: 40%;
-	    background-size: cover;
+      width: 40%;
+      background-size: cover;
       height: 465px;
    }
    .article-active:nth-child(even) {
