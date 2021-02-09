@@ -430,6 +430,16 @@
 
  }
 
+ @media (min-width:421px) and (max-width:566px) {
+      .header-text{
+       font-size: 28px;
+       padding-left: 86px;
+    }
+        .buttons p{
+       font-size: 140%;/*15px;*/
+    }
+}
+
 @media (min-width:961px) {
     .header {
         background-image: url("../img/football_1280.jpg");
